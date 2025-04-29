@@ -1,4 +1,4 @@
-# Student Data Entry System (Java)
+# Student Operations using Custom Exceptions
 
 ## Description
 This Java application manages student records with the help of OOP concepts. It supports adding, displaying, searching, updating, and deleting students.
