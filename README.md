@@ -1,4 +1,3 @@
-// README.md
 # Student Data Entry System (Java)
 
 ## Description
