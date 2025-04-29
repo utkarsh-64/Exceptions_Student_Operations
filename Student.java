@@ -11,4 +11,16 @@ public class Student {
         this.dob = dob;
         this.marks = marks;
     }
+
+    public String getPrn() { return prn; }
+    public String getName() { return name; }
+    public LocalDate getDob() { return dob; }
+    public double getMarks() { return marks; }
+    public void setName(String name) { this.name = name; }
+    public void setDob(LocalDate dob) { this.dob = dob; }
+    public void setMarks(double marks) { this.marks = marks; }
+    @Override
+    public String toString() {
+        return "PRN: " + prn + ", Name: " + name + ", DOB: " + dob + ", Marks: " + marks;
+    }
 }
